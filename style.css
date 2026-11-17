@@ -35,6 +35,8 @@ body{
     align-items: center;
     padding: 20px;
 }
+
+
 p{
     margin-bottom: 30px;
 }
@@ -71,6 +73,7 @@ label{
 
 .result{
     width: 100%;
+    /* display: none; */
 }
 .dates{
     width: 100%;
@@ -95,6 +98,16 @@ label{
 }
 
 @media(max-width:600px){
+    .container{
+        border-radius: 0;
+    }
+    h1{
+        font-size: 1.2rem;
+        margin-top: 20px;
+    }
+    #demo{
+        margin-bottom: 0;
+    }
     .dates{
         display: flex;
         flex-direction: column;
